@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+	<head>
+		<title>MyWorld</title>
+		<link id="pagestylesheet" rel=stylesheet href="DAT/home.css" type="text/css">
+		<script src="DAT/log.js"></script>
+		<script src="DAT/stats.js"></script>
+		<script src="DAT/world.js"></script>
+		<script src="DAT/commands.js"></script>
+		<script src="DAT/runtime.js"></script>
+	</head>
+	<body onload='lodd()'>
+		<br><br><br><br><br>
+		<textarea class="outpt" id="outpt" readonly rows="10"></textarea><br><br><br><br><br><a onclick="clg('r','RunGame');RunGame();"><h1><div class="startgame"></div></h1></a><br><br>
+		<div class="inputbx" id="pinpt" contenteditable="true" onkeyup="WasEnterPressed();"></div><div class="shade"></div>
+	</body>
+</html>
