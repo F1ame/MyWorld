@@ -1,0 +1,11 @@
+			html{height: 100%; width: 100%; background: linear-gradient(to top,darkblue 0.1%, blue 6%, darkblue 9%, blue 14%, darkblue 16.5%, blue 20.5%, darkblue 22.5%, blue 25%, darkblue 27%, blue 29%, darkblue 30%, blue 31%, darkblue 31.5%, blue 31.6%, lightblue 32.5%, cyan 60%, lightblue 100%); background-size: cover; background-repeat: none;}
+
+			body{font-size: 2vh;}
+
+			.outpt {width: 90%; left: 5%; position: relative; resize: none; font-size: 2em;border:none; background: transparent;color:rgb(150,150,150);}
+
+			.inputbx {font-size: 1.5em;width: 75%; left: 12.5%; height:1em; background-color: rgb(100,100,100); outline: none;position: relative;color:rgb(22,22,22);}
+
+			.filler {position: absolute; bottom: 0px; background: transparent; font-size: 0.8em;}
+
+			.shade {z-index:-1;background-color:rgba(22,22,22,1);position:absolute;top:0px;left:0px;height:100%;width:100%;}
